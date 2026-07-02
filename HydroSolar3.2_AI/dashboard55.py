@@ -27,7 +27,7 @@ from sklearn.preprocessing import MinMaxScaler
 # --- ACCESS CONTROL (1 WEEK TIMER) ---
 import datetime as dt_lib
 # Set your deadline (YYYY, MM, DD)
-EXPIRY_DATE = dt_lib.date(2026, 3, 31) 
+EXPIRY_DATE = dt_lib.date(2027, 12, 31) 
 
 if dt_lib.date.today() > EXPIRY_DATE:
     st.error(f"⛔ **ACCESS EXPIRED** \n\n This dashboard was available for review until {EXPIRY_DATE}. Please contact the administrator for access.")
